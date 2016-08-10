@@ -31,7 +31,7 @@ return [0, 1].
 二重循环，穷举算法（我只会这种笨办法），两个值相加等于目标值时，返回数组中的index。
 
 ## AC Code
-```
+```js
 /**
  * @param {number[]} nums
  * @param {number} target
