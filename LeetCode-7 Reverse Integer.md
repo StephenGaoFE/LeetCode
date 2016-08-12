@@ -43,8 +43,8 @@ Example2: x = -123, return -321
 利用JS的toString(),split(),reverse().join()方法，3行代码搞定^^
 
 ## AC Code
-```
-/**js
+```js
+/**
  * @param {number} x
  * @return {number}
  */
