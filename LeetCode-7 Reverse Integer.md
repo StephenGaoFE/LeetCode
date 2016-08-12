@@ -38,13 +38,13 @@ Example2: x = -123, return -321
 ## 解题思路
 小心注意别掉坑里了，本题会有溢出的可能，结果需要控制在Int32范围内，即（-2147483648到2147483647）
 ```math
- -2^{32} < res <  2^{32} 
+ -2^{31} < res <  2^{31}-1 
 ```
 利用JS的toString(),split(),reverse().join()方法，3行代码搞定^^
 
 ## AC Code
-```js
-/**
+```
+/**js
  * @param {number} x
  * @return {number}
  */
